@@ -6,6 +6,7 @@
   "author": "Ben Wilhelm <ben@doublebeamdesign.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -f docs/*.html; cat src/one.txt >> docs/index.html; cat src/two.txt >> docs/index.html"
+    "build": "scripts/build.sh",
+    "deploy": "scripts/deploy.sh"
   }
 }
