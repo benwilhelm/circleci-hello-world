@@ -18,4 +18,4 @@ then
 fi
 
 git commit -m "Automated Deploy"
-git push -u origin
+git push -u origin master
