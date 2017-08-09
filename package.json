@@ -1,0 +1,11 @@
+{
+  "name": "circleci-hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:benwilhelm/circleci-hello-world.git",
+  "author": "Ben Wilhelm <ben@doublebeamdesign.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -f docs/*.html; cat src/one.txt >> docs/index.html; cat src/two.txt >> docs/index.html"
+  }
+}
